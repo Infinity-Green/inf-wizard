@@ -9,7 +9,7 @@ async function unstakeinf(privateKey) {
     console.log('Connecting to Infinity-Green network...')
 
     const provider = new ethers.providers.JsonRpcProvider(
-      urls.testnet_rpc.http_rpc,
+      urls.mainnet_rpc.http_rpc,
     )
     const wallet = new ethers.Wallet(privateKey, provider)
 
